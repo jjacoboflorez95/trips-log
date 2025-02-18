@@ -1,0 +1,68 @@
+body {
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	background-color: rgba(255, 248, 240, 0.836);
+	margin: 0 auto;
+	width: 1000px;
+	/*border: 3px solid cornflowerblue;*/
+	padding: 0 2em 1em;
+}
+h1,
+h3 {
+	/*color: cornflowerblue;*/
+	color: rgb(1, 1, 92);
+}
+div {
+	margin-bottom: 1em;
+}
+label {
+	display: inline-block;
+	width: 10em;
+	font-size: 125%;
+}
+input {
+	margin-left: 1em;
+	margin-right: 0.5em;
+	font-size: 120%;
+	padding: 1px;
+	padding-left: 9px;
+}
+span {
+	color: red;
+}
+#trips {
+	float: right;
+}
+
+/**/
+main {
+	background-color: rgba(230, 226, 173, 0.842);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border: 1px solid rgb(230, 226, 173);
+	border-radius: 5px;
+	margin-top: 100px;
+	padding: 50px 70px;
+}
+input[type="button"] {
+	color: white;
+	border: 1px solid rgb(28, 30, 89);
+	background-color: rgba(13, 51, 123, 0.912);
+	border-radius: 10px;
+	padding: 5px 40px;
+	letter-spacing: 1px;
+	font-size: 110%;
+	margin-bottom: 50px;
+}
+input[type="button"]:hover {
+	background-color: rgb(11, 42, 99);
+	cursor: pointer;
+}
+main div:last-of-type {
+	margin-bottom: 30px;
+}
+small {
+	font-size: 70%;
+	color: black;
+	letter-spacing: 2px;
+}
